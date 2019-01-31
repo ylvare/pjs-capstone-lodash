@@ -12,7 +12,6 @@ const _ = {
             start = end;
             end = temp;
         }
-
         return number<start ? false: number>=end ? false : true;
     },
     words : (string) => string.split(' '),
