@@ -65,10 +65,7 @@ const _ = {
         do {
             let chunk = array.splice(0,size);
             chunks.push(chunk);
-        } while (array.length>=size) 
-        if(array.length){
-            chunks.push(array);
-        }
+        } while (array.length)  
         return chunks;
     }
 };
